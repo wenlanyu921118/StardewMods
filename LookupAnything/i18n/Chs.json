@@ -4,99 +4,99 @@
     *********/
     // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
     "generic.date": "{{seasonName}} {{dayNumber}}",
-    "generic.date-with-year": "{{seasonName}} {{dayNumber}} in year {{year}}",
+    "generic.date-with-year": "第{{year}}年 {{seasonName}} {{dayNumber}}",
 
     // generic field values
     "generic.percent": "{{percent}}%",
-    "generic.percent-chance-of": "{{percent}}% chance of {{label}}",
-    "generic.percent-ratio": "{{percent}}% ({{value}} of {{max}})",
-    "generic.ratio": "{{value}} of {{max}}",
-    "generic.range": "{{min}} to {{max}}",
-    "generic.yes": "yes",
-    "generic.no": "no",
-    "generic.seconds": "{{count}} seconds",
-    "generic.minutes": "{{count}} minutes",
-    "generic.hours": "{{count}} hours",
-    "generic.days": "{{count}} days",
-    "generic.in-x-days": "in {{count}} days",
-    "generic.tomorrow": "tomorrow",
+    "generic.percent-chance-of": "{{percent}}% 几率 {{label}}",
+    "generic.percent-ratio": "{{percent}}% ({{max}} 中的 {{value}})",
+    "generic.ratio": "{{max}} 中的 {{value}}",
+    "generic.range": "{{min}} 到 {{max}}",
+    "generic.yes": "是",
+    "generic.no": "否",
+    "generic.seconds": "{{count}} 秒",
+    "generic.minutes": "{{count}} 分",
+    "generic.hours": "{{count}} 小时",
+    "generic.days": "{{count}} 天",
+    "generic.in-x-days": "在 {{count}} 天内",
+    "generic.tomorrow": "明天",
     "generic.price": "{{price}}g",
     "generic.price-for-quality": "{{price}}g ({{quality}})",
-    "generic.price-for-stack": "{{price}}g for stack of {{count}}",
+    "generic.price-for-stack": "{{count}}个，总共{{price}}g",
 
     // types
-    "type.fruit-tree": "Fruit tree",
-    "type.map-tile": "Map tile",
-    "type.monster": "Monster",
-    "type.player": "Player",
-    "type.tree": "Tree",
-    "type.villager": "Villager",
-    "type.other": "Other", // default type
+    "type.fruit-tree": "果树",
+    "type.map-tile": "地格",
+    "type.monster": "怪物",
+    "type.player": "玩家",
+    "type.tree": "树",
+    "type.villager": "村民",
+    "type.other": "其他", // default type
 
     // item qualities
-    "quality.normal": "normal",
-    "quality.silver": "silver",
-    "quality.gold": "gold",
-    "quality.iridium": "iridium",
+    "quality.normal": "普通",
+    "quality.silver": "银星",
+    "quality.gold": "金星",
+    "quality.iridium": "铱星",
 
     /*********
     ** Data translations
     *********/
     // Community Center bundle areas
-    "bundle-area.pantry": "Pantry",
-    "bundle-area.crafts-room": "Crafts Room",
-    "bundle-area.fish-tank": "Fish Tank",
-    "bundle-area.boiler-room": "Boiler Room",
-    "bundle-area.vault": "Vault",
-    "bundle-area.bulletin-board": "Bulletin Board",
+    "bundle-area.pantry": "茶水间",
+    "bundle-area.crafts-room": "工艺室",
+    "bundle-area.fish-tank": "鱼缸",
+    "bundle-area.boiler-room": "锅炉房",
+    "bundle-area.vault": "地下室",
+    "bundle-area.bulletin-board": "布告栏",
 
     // shop names
-    "shop.adventure-guild": "Adventure Guild",
-    "shop.clint": "Clint",
-    "shop.marnie": "Marnie",
-    "shop.pierre": "Pierre",
-    "shop.robin": "Robin",
-    "shop.willy": "Willy",
+    "shop.adventure-guild": "探险家公会",
+    "shop.clint": "克林特",
+    "shop.marnie": "玛妮",
+    "shop.pierre": "皮埃尔",
+    "shop.robin": "罗宾",
+    "shop.willy": "威利",
 
     // recipe types
-    "recipe-type.cooking": "Cooking",
-    "recipe-type.crafting": "Crafting",
+    "recipe-type.cooking": "烹饪",
+    "recipe-type.crafting": "制造",
 
     /*********
     ** NPC overrides
     *********/
-    "data.npc.pet.description": "Your loyal pet.",
-    "data.npc.horse.description": "Your loyal steed.",
-    "data.npc.junimo.description": "A forest spirit from the spirit world. Very little is known about them.",
+    "data.npc.pet.description": "对你忠心耿耿的宠物。",
+    "data.npc.horse.description": "对你忠心耿耿的坐骑。",
+    "data.npc.junimo.description": "来自精神世界的森林精灵。人类对它们知之甚少。",
 
     /*********
     ** Item overrides
     *********/
     // item types
-    "data.type.debris": "Debris",
-    "data.type.stone": "Stone",
-    "data.type.container": "Container",
+    "data.type.debris": "残骸",
+    "data.type.stone": "石头",
+    "data.type.container": "容器",
 
     // farm
-    "data.item.egg-incubator.description": "Hatches eggs into baby chickens and ducks.",
-    "data.item.broken-branch.name": "Broken Branch",
-    "data.item.broken-branch.description": "A broken branch. Chop with an axe to obtain wood.",
-    "data.item.stone.name": "Stone",
-    "data.item.stone.description": "A nondescript gray stone. Break apart to obtain stone.",
-    "data.item.geode.name": "Geode Node",
-    "data.item.geode.description": "Break apart to obtain geodes.",
-    "data.item.frozen-geode.name": "Frozen Geode Node",
-    "data.item.frozen-geode.description": "Break apart to obtain frozen geodes.",
-    "data.item.magma-geode.name": "Magma Geode Node",
-    "data.item.magma-geode.description": "Break apart to obtain magma geodes.",
+    "data.item.egg-incubator.description": "将蛋孵化成小鸡或小鸭。",
+    "data.item.broken-branch.name": "碎枝",
+    "data.item.broken-branch.description": "一条碎枝。用斧劈砍之后可以获得木材。",
+    "data.item.stone.name": "石头",
+    "data.item.stone.description": "一颗常见的灰色石头。用镐打碎之后可以获得石头。",
+    "data.item.geode.name": "晶洞节点",
+    "data.item.geode.description": "用镐打碎之后可以获得晶洞。",
+    "data.item.frozen-geode.name": "冰封晶洞节点",
+    "data.item.frozen-geode.description": "用镐打碎之后可以获得冰封晶洞。",
+    "data.item.magma-geode.name": "巨大晶洞节点",
+    "data.item.magma-geode.description": "用镐打碎之后可以获得巨大晶洞。",
 
     // weeds & crystals
-    "data.item.weed.name": "Weed",
-    "data.item.weed.description": "A nondescript weed. Might contain fibers or mixed seeds.",
-    "data.item.fertile-weed.name": "Fertile Weed",
-    "data.item.fertile-weed.description": "Guaranteed to drop wild seeds.",
-    "data.item.ice-crystal.name": "Ice Crystal",
-    "data.item.ice-crystal.description": "A nondescript ice crystal. Very small chance of containing refined quartz.",
+    "data.item.weed.name": "杂草",
+    "data.item.weed.description": "一片常见的杂草，可能含有植物纤维或是混合种子。",
+    "data.item.fertile-weed.name": "茂盛的杂草",
+    "data.item.fertile-weed.description": "必定收获种子",
+    "data.item.ice-crystal.name": "冰晶",
+    "data.item.ice-crystal.description": "一颗常见的杂草，有非常小的概率获得精炼石英。",
 
     // mine gems
     "data.item.amethyst-node.name": "Amethyst Cluster",
